@@ -13,10 +13,7 @@ from langchain.prompts import ChatPromptTemplate
 from langchain.prompts.prompt import PromptTemplate
 
 load_dotenv()
-
-
-# ---------- DB / LLM setup ----------
-DB_URI = "postgresql+psycopg2://postgres:4455@localhost:5432/caterpillar_monitor"
+DB_URI = os.getenv("DB_URI")
 
 # SQLDatabase wraps the DB schema for LangChain
 db = SQLDatabase.from_uri(DB_URI)
