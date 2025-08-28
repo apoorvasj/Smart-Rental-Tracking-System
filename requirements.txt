@@ -1,0 +1,8 @@
+pandas
+psycopg2
+langchain
+langchain_groq
+langchain_experimental
+python-dotenv
+fastapi
+uvicorn
