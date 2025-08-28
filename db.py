@@ -13,7 +13,7 @@ def connect():
         database = "caterpillar_monitor",
         host = "localhost",
         user="postgres",
-        password = "4455",
+        password = "your password here",
         port = "5432"
     )
 
